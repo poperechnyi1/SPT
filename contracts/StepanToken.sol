@@ -12,7 +12,7 @@ contract StepanToken is ERC20{
     string public constant name = "Stepan Token";
     string public constant symbol = "SPT";
     uint8 public constant decimals = 8; 
-    uint totalTokens = 1000000;
+    uint totalTokens = 100000000000000;
     
     
     //balances for accaunts
