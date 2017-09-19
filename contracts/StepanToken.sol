@@ -22,7 +22,7 @@ contract StepanToken is ERC20{
     mapping(address => mapping(address => uint)) allowed;
     
     modifier onlyOwners (){
-        require(msg.sender != ownerFirst || msg.sender != ownerSecond);
+        require(msg.sender == ownerFirst || msg.sender == ownerSecond);
         _;
     }
     
